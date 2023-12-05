@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'texto';
+    src: url(/fontes/IrishGrover-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'texto';
+}
+
+header {
+    background-color: #73412F;
+    height: 80px;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: 2;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 10px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+header h1 {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'texto';
+    margin-left: 50px;
+    margin-bottom: 27px;
+}
+
+ul {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style-type: none;
+    display: flex;
+    margin-right: 100px;
+}
+
+.introducao {
+    display: flex;
+    margin-right: 100px;
+}
+
+.caracteristica {
+    display: flex;
+    margin-right: 100px;
+}
+
+.escravidao {
+    display: flex;
+    margin-right: 100px;
+}
+
+.tabelas {
+    display: flex;
+    margin-right: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    position: absolute;
+    font-family: 'Texto';
+    top: 80px;
+}
+
+p {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+    margin: 35px;
+}
+
+#principal {
+    display: flex;
+}
+
+h1 {
+    margin-top: 25px;
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+}
+
+.menu-imagem {
+    background-color: #73412F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    z-index: 1;
+    box-shadow: 10px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.imagens {
+    width: 180px;
+    height: 140px;
+    margin-top: 93px;
+}
+
+.tabela {
+    margin-top: 30px;
+}
+
+.descricao {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.descricao1 {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.imagens1 {
+    width: 180px;
+    height: 140px;
+    margin-top: 93px;
+}
+
+.menu-principal {
+    background-color: #F2A766;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+}
+
+.menu-principal1 {
+    background-color: #F2A766;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+footer {
+    background-color: #BF7B54;
+}
+
+.tabelafooter {
+    background-color: #73412F;
+}
+
+.h1footer {
+    margin-left: 120px;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 400px) {
+    header {
+        height: 40px;
+    }
+
+    header h1 {
+        font-size: 17px;
+        margin-left: 20px;
+        margin-bottom: 17px;
+    }
+
+    ul {
+        font-size: 8px;
+    }
+
+    main {
+        top: 40px;
+    }
+
+    .introducao {
+        margin-right: 15px;
+        margin-left: 10px;
+    }
+
+    .caracteristica {
+        margin-right: 15px;
+    }
+
+    .escravidao {
+        margin-right: 15px;
+    }
+
+    .tabelas {
+        margin-right: 15px;
+    }
+
+    p {
+        font-size: 13px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .menu-imagem {
+        width: 25%;
+    }
+
+    .descricao {
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .descricao1 {
+        display: none;
+    }
+
+    .imagens {
+        width: 96%;
+        height: 27%;
+        margin-top: 200%;
+    }
+
+    .imagens1 {
+        display: none;
+    }
+
+    .menu-principal {
+        width: 75%;
+    }
+
+    .h1footer {
+        margin-left: 30px;
+    }
+
+    .pfooter {
+        font-size: 10px;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+    .tabela {
+        margin-top: 15px;
+        width: 350px;
+    }
+    .menu-principal1 {
+        width: 100%;
+    }
+    
+
+
+}
